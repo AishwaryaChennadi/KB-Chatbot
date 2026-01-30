@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langgraph[sqlite]
+gradio
+chromadb
+sentence-transformers
+requests
+python-dotenv

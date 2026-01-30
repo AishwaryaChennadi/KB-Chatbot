@@ -1,0 +1,8 @@
+Team names : FTM, SFG, DB and Infra Team
+
+Project name : Keybank 
+
+Incident DB2 HADR disconnected : 1. Check HADR status using command : db2pd -d dbname -HADR then check If HADR Is in stopped state, start HADR. Recheck if it is connected
+
+
+
