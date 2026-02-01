@@ -2,7 +2,32 @@ Team names : FTM, SFG, DB and Infra Team
 
 Project name : Keybank 
 
-Incident DB2 HADR disconnected : 1. Check HADR status using command : db2pd -d dbname -HADR then check If HADR Is in stopped state, start HADR. Recheck if it is connected
+[Incident]
+Category : DB
+Title : DB2 HADR disconnected 
+Steps : 1. Check HADR status using command : db2pd -d dbname -HADR then check If HADR Is in stopped state, start HADR. Recheck if it is connected
 
+[Documentation]
+Title : IBM DB2 Documentation
+URL : https://en.wikipedia.org/wiki/IBM_Db2
 
+[Documentation]
+Title : FTM UI 
+URL : https://www.ibm.com/support/pages/financial-transaction-manager-digital-payments-v323-release-information
 
+[Incident]
+Category : Infra
+Title : Pod restart
+Steps : Check when the pod is restarted last time, findout RCA by checking network layer cluster and nodes health
+
+[Team Members]
+Team : DB 
+Members : Aishwarya Chennadi, Ravi Teja Varma, Arun Ashok Kumar, Sunil Kumar
+
+[Team Members]
+Team :Infra 
+Members : Kaviraj, Asritha, Neeraj, Madhav, Chandana, Sindhu
+
+[Team Members]
+Team : FTM  
+Members : Puja, Venkat, Srikanth
